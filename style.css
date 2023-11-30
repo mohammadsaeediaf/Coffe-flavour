@@ -19,3 +19,36 @@ body {
   font-family: "Poppins", sans-serif;
   background-image: url(../img/video.mp4);
 }
+.header {
+  z-index: 2;
+}
+
+#navbar {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 3;
+}
+
+.close-btn-nav {
+  position: absolute;
+  top: 17px;
+  right: 16px;
+}
+
+.navbar-btn-class {
+  direction: rtl;
+}
+
+.dropdown-menu-class li {
+  animation: animation 3s;
+  position: absolute;
+}
+@keyframes animation {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
