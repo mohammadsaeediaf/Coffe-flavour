@@ -44,3 +44,11 @@ body {
   animation: animation 3s;
   position: absolute;
 }
+@keyframes animation {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
