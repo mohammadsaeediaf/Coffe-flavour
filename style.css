@@ -7,17 +7,17 @@
 }
 @font-face {
   font-family: "Montserrat";
-  src: url(../font/Montserrat-Italic-VariableFont_wght.ttf);
+  src: url(font/Montserrat-Italic-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: "Montserrat-bold";
-  src: url(../font/Montserrat-VariableFont_wght.ttf);
+  src: url(font/Montserrat-VariableFont_wght.ttf);
 }
 
 body {
   font-family: "Montserrat-bold", sans-serif;
   font-family: "Poppins", sans-serif;
-  background-image: url(../img/video.mp4);
+  background-image: url(img/video.mp4);
 }
 
 .header {
